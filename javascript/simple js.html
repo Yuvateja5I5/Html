@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+        let x=Number(prompt(` Enter the operations you need to perform.
+        1.Addition
+        2.Subtraction
+        3.Multiplication
+        4.Division`));
+
+        function add(a,b)
+        {
+            return a+b;
+        }
+
+        function sub(a,b)
+        {
+            return a-b;
+        }
+
+        function mul(a,b)
+        {
+            return a*b;
+        }
+
+        function div(a,b)
+        {
+            return a/b;
+        }
+        let a=Number(prompt("Enter A value"));
+        let b=Number(prompt("Enter B value"));
+        switch(x)
+        {
+            case 1:
+                alert("Addition is :" + add(a,b));
+            break;
+
+            case 2:
+                alert("Subtraction is :" + sub(a,b));
+            break;
+            
+            case 3:
+                alert("Multiplication is :" + mul(a,b));
+            break;
+
+            case 4:
+                alert("Division is :" + Div(a,b));
+            break;
+
+            default:
+                alert("Invalit operator")
+            }
+    </script>
+</body>
+</html>
