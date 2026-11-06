@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let correctpassword="Teja"
+        let attempts=1
+        for(attempts=1;attempts<=3;attempts++){
+        let password=prompt(`Enter a password:`)
+       if (password==correctpassword){
+        alert("door opened")
+        break;
+       }
+       else{
+        alert("Door blocked")
+        
+       }
+    }
+    if (attempts>3)
+    {
+        alert("System locked")
+    }
+   
+    </script>
+</body>
+</html> 
